@@ -1,0 +1,160 @@
+[{
+	"title": "Rocky Balboa",
+	"directors": [
+		"Sylvester Stallone"
+	],
+	"img": "img/Rocky_Balboa.jpg",
+	"year": 2006,
+	"stars": [
+		"Sylverster Stallone",
+		"Antonio Tarver",
+		"Milo Ventimiglia"
+	],
+	"description": "Thirty years after the ring of the first bell, Rocky Balboa comes out of retirement and dons his gloves for his final fight; against the reigning heavyweight champ Mason 'The Line' Dixon.",
+	"genres": [
+		"Action",
+		"Drama",
+		"Sport"
+	],
+	"trailer": "https://www.youtube.com/embed/8tab8fK2_3w",
+	"likes": 8
+},{
+	"title": "Intouchables",
+	"directors": [
+		 "Olivier Nakache",
+		 "Éric Toledano"
+	],
+	"img": "img/Intouchables.jpg",
+	"year": 2011,
+	"stars": [
+		"François Cluzet",
+		"Omar Sy",
+		"Anne Le Ny"
+	],
+	"description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+	"genres": [
+		"Biography",
+		"Comedy",
+		"Drama"
+	],
+	"trailer": "https://www.youtube.com/embed/8tab8fK2_3w",
+	"likes": 12
+},{
+	"title": "Joker",
+	"directors": [
+		 "Todd Phillips"
+	],
+	"img": "img/Joker.jpg",
+	"year": 2019,
+	"stars": [
+		"Joaquin Phoenix",
+		"Robert De Niro",
+		"Zazie Beetz"
+	],
+	"description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+	"genres": [
+		"Crime",
+		"Drama",
+		"Thriller"
+	],
+	"trailer": "https://www.youtube.com/embed/zAGVQLHvwOY",
+	"likes": 5
+},{
+	"title": "The Dark Knight",
+	"directors": [
+		 "Christopher Nolan"
+	],
+	"img": "img/The_Dark_Knight.jpg",
+	"year": 2008,
+	"stars": [
+		"Christian Bale",
+		"Heath Ledger",
+		"Aaron Eckhart"
+	],
+	"description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+	"genres": [
+		"Action",
+		"Crime",
+		"Drama"
+	],
+	"trailer": "https://www.youtube.com/embed/EXeTwQWrcwY",
+	"likes": 4
+},{
+	"title": "Iron Man",
+	"directors": [
+		 "Jon Favreau"
+	],
+	"img": "img/Iron_Man.jpg",
+	"year": 2008,
+	"stars": [
+		"Robert Downey Jr.",
+		"Gwyneth Paltrow",
+		"Terrence Howard"
+	],
+	"description": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+	"genres": [
+		"Action",
+		"Adventure",
+		"Sci-Fi"
+	],
+	"trailer": "https://www.youtube.com/embed/8ugaeA-nMTc",
+	"likes": 7
+},{
+	"title": "The Godfather",
+	"directors": [
+		 "Francis Ford Coppola"
+	],
+	"img": "img/The_Godfather.jpg",
+	"year": 1972,
+	"stars": [
+		"Marlon Brando",
+		"Al Pacino",
+		"James Caan"
+	],
+	"description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+	"genres": [
+		"Crime",
+		"Drama"
+	],
+	"trailer": "https://www.youtube.com/embed/sY1S34973zA",
+	"likes": 14
+},{
+	"title": "Pulp Fiction",
+	"directors": [
+		 "Quentin Tarantino"
+	],
+	"img": "img/Pulp_Fiction.jpg",
+	"year": 1994,
+	"stars": [
+		"John Travolta",
+		"Uma Thurman",
+		"Samuel L. Jackson"
+	],
+	"description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+	"genres": [
+		"Crime",
+		"Drama" 
+	],
+	"trailer": "https://www.youtube.com/embed/s7EdQ4FqbhY",
+	"likes": 8
+},{
+	"title": "Interstellar",
+	"directors": [
+		 "Christopher Nolan"
+	],
+	"img": "img/Interstellar.jpg",
+	"year": 2014,
+	"stars": [
+		"Matthew McConaughey",
+		"Anne Hathaway",
+		"Jessica Chastain"
+	],
+	"description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+	"genres": [
+		"Adventure",
+		"Drama",
+		"Sci-Fi"
+	],
+	"trailer": "https://www.youtube.com/embed/zSWdZVtXT7E",
+	"likes": 5
+}]

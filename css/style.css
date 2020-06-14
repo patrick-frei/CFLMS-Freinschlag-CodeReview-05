@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Century Gothic", "Montserrat", sans-serif;  
+}
+body {
+  background-image: linear-gradient(#FFF, #F4F4F4);
+  background-repeat: no-repeat;
+}
+header {
+  background-image: linear-gradient(#FFF, #F4F4F4);
+  box-shadow: 0 0 2px rgba(0,0,0,0.2);
+  padding: 0.5em 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header_logo {
+  height: 1.5em;
+}
+#header_logo > img {
+  height: 100%;
+}
+header nav {
+  display: inline-block;
+  font-weight: bold;
+}
+header nav ul {
+  list-style: none;
+}
+header nav li {
+  display: inline-block;
+  height: 100%;
+}
+header nav li:after {
+  display:block;
+  content: "";
+  border-bottom: 1px solid grey;
+  transform: scaleX(0);
+  transition: transform 200ms ease-in-out;
+}
+header nav a {
+  display: flex;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  color: #1F3348;
+}
+header nav li:hover:after {
+  transform: scaleX(1);
+}
+#movie-header {
+	margin: 1em 3em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#movie-header p,
+#movie-header select,
+#movie-header button {
+	display: inline-block;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+#movie-header button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+#movies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+#movie-template {
+	display: none;
+}
+.movie {
+	vertical-align: top;
+	margin: 1em;
+	padding: 0.3em;
+	display: flex;
+	justify-content: center;
+	background-color: #FFF;
+	border: 1px solid #000;
+	box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.2);
+}
+.movie-cover {
+	width: 6.5em;
+	height: 9.5em;
+	max-width: 100%;
+    vertical-align: top;
+	display: inline-block;
+	object-fit: cover;
+}
+.movie-info {
+	width: 14em;
+	vertical-align: top;
+	display: inline-block;
+}
+.movie-header, .movie-description {
+	display: inline-block;
+    vertical-align: top;
+	margin: 0.5em;
+}
+.movie-description {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.movie-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0.5em;
+}
+.like-counter {
+	display: inline-block;
+	background-color: green;
+	width: 1.8em;
+	height: 1.8em;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.8em;
+	color: #FFF;
+	font-weight: bold;
+}
+.like-button {
+	width: 5em;
+	padding: 0.2em;
+	font-size: 1em;
+}
+footer {
+	background-image: linear-gradient(#FFF, #F4F4F4);
+	box-shadow: 0 0 2px rgba(0,0,0,0.2);
+	padding: 1em;
+}
+#footer-logo, #footer-info {
+	display: block;
+	margin: 0.5em auto;
+	height: 1.5em;
+}
+#footer-info {
+	text-align: center;
+}
