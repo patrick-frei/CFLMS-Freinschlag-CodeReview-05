@@ -9,9 +9,7 @@ html {
 	height: 100%;
 }
 body {
-	background-image: linear-gradient(#FFF, #F4F4F4);
-	background-repeat: no-repeat;
-	margin: 3em 0 6.5em 0;
+	height: 100%;
 }
 header {
 	background-image: linear-gradient(#FFF, #F4F4F4);
@@ -20,10 +18,6 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 3em;
-	position: fixed;
-	top: 0;
-	width: 100%;
 }
 #header_logo {
 	height: 1.5em;
@@ -59,7 +53,7 @@ header nav li:hover:after {
 	transform: scaleX(1);
 }
 #movie-header {
-	margin: 1em 3em;
+	margin: 1.5em 3em;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -87,7 +81,7 @@ header nav li:hover:after {
 }
 .movie {
 	vertical-align: top;
-	margin: 1em;
+	margin: 2em;
 	padding: 0.3em;
 	display: flex;
 	justify-content: center;
@@ -146,14 +140,12 @@ footer {
 	background-image: linear-gradient(#FFF, #F4F4F4);
 	box-shadow: 0 0 2px rgba(0,0,0,0.2);
 	padding: 0 1.5em;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
 	height: 6.5em;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: 10em;
 }
 #footer-logo, #footer-info {
 	display: block;
