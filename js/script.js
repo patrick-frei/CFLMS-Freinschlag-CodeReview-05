@@ -81,20 +81,11 @@ $(document).ready(function() {
 			$(".movie-link").last().attr("href", "#");
 			$(".like-counter").last().html(movies[i].likes);
 			$(".like-button").last().data({
-				"title": movies[i].title,
-				"liked": false
+				"title": movies[i].title
 			})
 		});	
 		$(".like-button").on("click", function() {
-			if ($(this).data("liked")) {
-				$(this).siblings(".like-counter").html(--movies[movies.findIndex(movie => movie.title == $(this).data("title"))].likes);
-				$(this).data("liked", false);
-				$(this).html("Like");
-			} else {
-				$(this).siblings(".like-counter").html(++movies[movies.findIndex(movie => movie.title == $(this).data("title"))].likes);
-				$(this).data("liked", true);
-				$(this).html("Unlike");
-			}
+			$(this).siblings(".like-counter").html(++movies[movies.findIndex(movie => movie.title == $(this).data("title"))].likes);
 		});
 	}
 	$("#down-button").data("activated", false);
